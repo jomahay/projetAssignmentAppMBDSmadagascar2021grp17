@@ -2,7 +2,7 @@
 
 Assignment app
 
-Informations générales :
+## Informations générales :
 Ceci est un projet de gestion d 'assignment.
  
 
