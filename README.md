@@ -40,18 +40,20 @@ Assignment app
 
 https://frontendgrp17madagascar2021.herokuapp.com/
 
-compte utilisateur:
-Administrateur : email: ratah@gmail.com / mdp: ratah
-Professeur : email : toto@tooo.com / mdp : Mazoto
+### compte utilisateur:
+Administrateur : 
+email: ratah@gmail.com / mdp: ratah
+Professeur : 
+email : toto@tooo.com / mdp : Mazoto
 
 		
 ## Les documentations et tutoriels suivis dans ce projet
-JWT et login :
+### JWT et login :
 https://www.loginradius.com/blog/async/Nodejs-and-MongoDb-application-authentication-by-JWT/
 https://etienner.github.io/api-json-web-token-authentication-jwt-sur-express-js/
 https://www.youtube.com/watch?v=Tn6MfKdfmg4&list=PLBpijX9DhBeCJrPEZm_C1xwRYHQscxjUj&index=3
 
-affichages :
+### affichages :
 https://github.com/angular/flex-layout
 https://codepen.io/RajRajeshDn/pen/LKzZNe
 https://material.angular.io/components/tabs/overview
