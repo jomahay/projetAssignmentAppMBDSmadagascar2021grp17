@@ -12,7 +12,7 @@ Assignment app
 
 ## Auteur
     L'application a été conçue par le groupe 17 composé de:
-        . ANDRIANARIVO Henintsoa Jonatana  n°07
+    . ANDRIANARIVO Henintsoa Jonatana  n°07
 	. RANOMENJANAHARY Miora Gabrielle  n°46
         
 
