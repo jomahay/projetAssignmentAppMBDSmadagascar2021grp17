@@ -33,7 +33,7 @@
                 <div *ngIf="a.prof[0].image!=null" mat-card-avatar class="example-header-image" style=" background-image: url('{{a.prof[0].image}}');">
                   
                 </div>
-                <div *ngIf="a.prof[0].image==null" mat-card-avatar class="example-header-image" style=" background-image: url('https://backendgrp17mada.herokuapp.com/images/avatar.jpg');">
+                <div *ngIf="a.prof[0].image==null" mat-card-avatar class="example-header-image" style=" background-image: url('http://localhost:8010/images/avatar.jpg');">
                 
                 </div>
                   <mat-card-title><a routerLink="/assignments/{{a._id}}">{{a.nom}}</a></mat-card-title> 

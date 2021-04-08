@@ -7,7 +7,7 @@ export const environment = {
  
 };
 
-export const  api= 'https://backendgrp17mada.herokuapp.com/api/';
+export const  api= 'http://localhost:8010/api/';
 
 /*
  * For easier debugging in development mode, you can import the following file
