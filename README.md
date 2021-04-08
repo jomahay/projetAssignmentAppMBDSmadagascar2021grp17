@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2562b92552e01a3dc399ae11a236c6d7eddef782
 # projetAssignmentAppMBDSmadagascar2021grp17
 
 Assignment app
