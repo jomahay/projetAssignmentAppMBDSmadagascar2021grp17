@@ -32,9 +32,11 @@ Assignment app
 		-Lire toutes les matières
 	.Gestion des assignments:
 		-Lire les assignments rendus et non rendus
-		-Donner  des notes et remarques pour les assignments (L'administrateur seul peut donner des notes et remarques)  
+		-Donner  des notes et remarques pour les assignments 
+        (L'administrateur seul peut donner des notes et remarques)  
 		-Supprimer un assignment
-		-Ajouter un assignment(l'administrateur, le professeur, et l'étudiant peuvent ajouter un assignment )
+		-Ajouter un assignment
+        (l'administrateur, le professeur, et l'étudiant peuvent ajouter un assignment )
 
 ## Lien du site :
 
