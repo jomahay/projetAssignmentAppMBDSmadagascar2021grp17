@@ -1,0 +1,52 @@
+<div class="container">
+       <a routerLink="/matiere" class="ajouterBtn" >
+              <button mat-flat-button color="primary">
+                retourner à la liste des  matières
+              </button>
+            </a>
+       <h1>Ajouter une matiere</h1>
+
+<form ngForm  #formMatiere class="form" >
+
+       
+       <mat-form-field >
+              <mat-label>Entrer nom matière</mat-label>
+              <input matInput   name="nom"
+                     [(ngModel)]="nom" type="text" required>
+       </mat-form-field>
+      <br>
+       
+       <mat-form-field  appearance="fill">
+              <mat-label>Selectionner un professeur</mat-label>
+              <mat-select [(ngModel)]="prof"  name="prof" matNativeControl required >
+                     
+                     
+                     <mat-option *ngFor="let professeur of professeurs" [value]="professeur._id">
+                            {{professeur.prenom}} {{professeur.nom}}
+                          </mat-option>
+              </mat-select>
+             
+       </mat-form-field>
+       <br><br>
+       
+       <mat-form-field >
+              <mat-label>Entrer le lien de l'image de la matière</mat-label>
+              <input matInput   name="image"
+                     [(ngModel)]="image" type="url" required>
+       </mat-form-field>
+          <br><br>
+              <button type="submit" [disabled]="!prof || !nom ||!image" mat-stroked-button color="primary"  (click)="addMatiere()">
+                Ajouter une matière
+              </button>
+            
+      
+     </form>
+
+
+
+
+</div>
+
+
+
+
